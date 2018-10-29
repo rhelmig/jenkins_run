@@ -2,8 +2,7 @@
 Library  SeleniumLibrary
 *** Test Cases ***
 check
-    open browser  https://www.google.com  create chrome
+    open browser  https://www.google.com  chrome
     sleep  3s
     close browser
 
-    
